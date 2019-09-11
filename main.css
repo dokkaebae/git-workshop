@@ -1,3 +1,4 @@
+
 element.style {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
 }
@@ -74,4 +75,59 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+
+element.style {
+}
+footer {
+    height: 7.8em;
+    color: #F3F3F3;
+    padding: 10px;
+    width: 100%;
+}
+footer, html {
+    position: relative;
+    background-color: #37392E;
+}
+footer {
+    display: block;
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;   
+	
+}
+
+*
+,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+@font-face {
+	font-family: Bebas Neue;
+    src: url("Dharma Type - Bebas Neue Regular.otf") format("opentype");
+}
+
+.microsites {
+	height: 50vw;
+	background: #2F2F2F;
+}
+
+.ourWorks {
+	display: flow;
+	padding: 3vw;
+	font-size: 3vw;
+	font-family: Bebas Neue;
+	color: #FFFFFF;	
+}
+
+.concert {
+	width: 70vw;
+	margin-left: 14vw;
+	margin-top: -1vw;
+	border-radius: 5%;
+
 }

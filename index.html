@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
     <title>Portfolio | Computer Society of the Ateneo</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -50,3 +51,85 @@
 </body>
 
 </html>
+=======
+		<title>Portfolio | Computer Society of the Ateneo</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	</head>
+	<body>
+		<header id="header">
+			<!-- Developer 1 will work on this -->
+			<nav id="nav_tag">
+				
+			</nav>
+
+			<!-- Developer 2 will work on this -->
+			<div id="head_content">
+				<div class="microsites">
+					<div class="ourWorks">
+						<h1>OUR WORKS</h1><br><h3>MICROSITES</h3>
+					</div>	
+				</div>
+			</div>
+		</header>
+		<main id="main">
+			<!-- Developer 3 will work on this -->
+			<div class="content_div" style="background-color: #F3F3F3;">
+				
+				<div id="center">
+				
+					<div id="left">
+						<img src="images/WhatWeOffer_projects.png" alt="">
+						<p><br>We provide a showcase of the websites that CompSAt has developed over the past few years.<br></p>
+						
+					</div>
+				
+					<div id="middle">
+						<img src="images/WhatWeOffer_services.png" alt="">
+						<p><br>We provide services to develop websites or systems. We offer a wide range of add-ons, including graphics and responsive design.<br></p>
+						
+					</div>
+				
+					<div id="right">
+						<img src="images/WhatWeOffer_projects.png" alt="">
+						<p><br>We provide avenues for our members to export the IT world and learn from these experiences.<br></p>
+					</div>
+				
+				</div>
+			</div>
+		</main>
+
+		<!-- Developer 4 will work on this -->
+		<footer>
+		
+			<div class="social-media">
+				<h3>Connect with Us</h3>
+				<a target="_blank" title="Facebook" href="https://www.facebook.com/pages/Computer-Society-of-the-Ateneo-/299828990080524"><img src="images/ContactUs_fb.png"></a>
+				<a target="_blank" title="Twitter" href="http://twitter.com/CompSAt"><img src="images/ContactUs_twitter.png"></a>
+				<a target="_blank" title="Instagram" href="http://instagram.com/compsatgear"><img src="images/ContactUs_ig.png"></a>
+			</div>
+			<div class="more-info">
+				<p class="copyright">CompSAt &copy; 2016</p>
+				<p><a href="aboutus.php">About CompSAt</a></p>
+				<p><a href="contactus.php">Contact Us</a></p>
+			</div>
+			<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+			<script type="text/javascript" src="js/jquery.transit.min.js"></script>
+			<script type="text/javascript" src="js/main.min.js"></script>
+			<script type="text/javascript">
+			$(function () {
+				$('#cta').click(function (e) {
+					e.preventDefault();
+					$('html, body').animate({
+						scrollTop: $('#what_we_offer').offset().top - 80
+					}, 600, 'swing', function () {
+						window.location.hash = e.target.hash;
+					});
+				});
+			});
+			</script>
+			
+		</footer>
+	</body>
+</html>
+
