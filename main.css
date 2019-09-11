@@ -1,3 +1,4 @@
+
 element.style {
 }
 footer {
@@ -12,4 +13,44 @@ footer, html {
 }
 footer {
     display: block;
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;   
+	
+}
+
+*
+,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+@font-face {
+	font-family: Bebas Neue;
+    src: url("Dharma Type - Bebas Neue Regular.otf") format("opentype");
+}
+
+.microsites {
+	height: 50vw;
+	background: #2F2F2F;
+}
+
+.ourWorks {
+	display: flow;
+	padding: 3vw;
+	font-size: 3vw;
+	font-family: Bebas Neue;
+	color: #FFFFFF;	
+}
+
+.concert {
+	width: 70vw;
+	margin-left: 14vw;
+	margin-top: -1vw;
+	border-radius: 5%;
+
 }
