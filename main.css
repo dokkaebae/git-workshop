@@ -1,3 +1,19 @@
+
+element.style {
+}
+footer {
+    height: 7.8em;
+    color: #F3F3F3;
+    padding: 10px;
+    width: 100%;
+}
+footer, html {
+    position: relative;
+    background-color: #37392E;
+}
+footer {
+    display: block;
+
 html {
 	font-size: 100%;
 	box-sizing: border-box;   
@@ -36,4 +52,5 @@ html {
 	margin-left: 14vw;
 	margin-top: -1vw;
 	border-radius: 5%;
+
 }
